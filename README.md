@@ -23,3 +23,11 @@
   'preferred_username': 'jan@johansen.tld'
 }
 ```
+*** Regel 1
+```
+if (password.toLowerCase().includes(name.toLowerCase()) || password.toLowerCase().includes(email.toLowerCase())) {
+        validPassword = false;
+        passwordErrorMessage = "Password cannot contain name or email address.";
+        return;
+    }
+```
