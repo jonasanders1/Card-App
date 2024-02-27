@@ -24,7 +24,7 @@
 }
 ```
 
-##Rule 1: Check if the password contains name or email-address
+## Rule 1: Check if the password contains name or email-address
 ```
       if (password.toLowerCase().includes(name.toLowerCase()) || 
           password.toLowerCase().includes(email.toLowerCase())) {
@@ -34,7 +34,7 @@
       }
 ```
 
-##Rule 2: Check if the password length is between 8 and 64 characters
+## Rule 2: Check if the password length is between 8 and 64 characters
 ```
       if (password.length < 8 || password.length > 64) {
         validPassword = false;
@@ -43,7 +43,7 @@
       }
 ```
 
-##Regel 3
+## Regel 3
 ```
 if (password.toLowerCase().includes(name.toLowerCase()) || password.toLowerCase().includes(email.toLowerCase())) {
         validPassword = false;
