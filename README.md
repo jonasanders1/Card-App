@@ -23,7 +23,7 @@
   'preferred_username': 'jan@johansen.tld'
 }
 ```
-*** Regel 1
+***Regel 1
 ```
 if (password.toLowerCase().includes(name.toLowerCase()) || password.toLowerCase().includes(email.toLowerCase())) {
         validPassword = false;
